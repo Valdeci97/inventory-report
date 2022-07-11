@@ -50,9 +50,3 @@ class Inventory:
             return CompleteReport.generate(xml_file)
         else:
             raise ValueError
-
-# Entendendo Python slicing:
-# https://stackoverflow.com/questions/509211/understanding-slicing
-
-
-Inventory.import_data('inventory_report/data/inventory.csv', 'simples')
